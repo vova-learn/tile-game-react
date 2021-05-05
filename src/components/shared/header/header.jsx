@@ -32,7 +32,7 @@ const Header = ({onResetGameDataGenerateStatus}) => {
           {LOGO_IMAGES.map((item, index) => getLogoSvgJsx(item, index))}
         </Link>
 
-        <a className="social" href="https://github.com/">
+        <a className="social" href="https://github.com/vovapipko/tile-game-react">
           <img
             className="social__image social__image--github"
             src={logoGithub}
